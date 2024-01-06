@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&family=Poppins:wght@100;200;300;400;600&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+  --dark: #070a13;
+  --light: #f1f5f9;
+  --slate1: #94a3b8;
+  --slate2: #475569;
+  --slate3: #334155;
+  --yellow: #FFE400;
+  --yellow1: #eab308;
+  --indigo: #4f46e5;
+
+
+  /* yellow : 	rgb(234, 179, 8) */
+  /* indigo : 	rgb(79, 70, 229) */
+
+  /* sizes */
+  --xxs: 0.5rem;
+  --xs: 0.75rem;
+  --sm: 0.875rem;
+  --base: 1rem;
+  --lg: 1.125rem;
+  --xl: 1.25rem;
+  --2xl: 1.5rem;
+  --3xl: 1.875rem;
+  --4xl: 2.25rem;
+  --5xl: 3rem;
+  --6xl: 3.75rem;
+  --7xl: 4.5rem;
+  --8xl: 6rem;
+  --9xl: 8rem;
+  --10xl: 10rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+body {
+  font-family: 'ubuntu', sans-serif;
+}
+
+img,
+pic,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a {
+  color: var(--yellow);
+}
+
+strong {
+  color: var(--indigo);
+}

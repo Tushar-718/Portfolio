@@ -1,0 +1,242 @@
+.work {
+  .title {
+    font-size: var(--2xl);
+    color: var(--light);
+  }
+
+  .projects {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    .project__card {
+      border-radius: 10px;
+      padding: 20px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      border-radius: 25px;
+
+      .project__img {
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          border-radius: 25px;
+        }
+      }
+
+      .project__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        .title {
+          font-size: var(--2xl);
+          color: var(--yellow);
+        }
+        .tech {
+          .tech__style {
+            background-color: var(--indigo);
+            border-radius: 5px;
+            padding: 5px;
+            margin-right: 0.5rem;
+            font-weight: 500;
+            font-size: var(--sm);
+          }
+        }
+        .description {
+          .desc {
+            font-size: var(--sm);
+            color: var(--slate1);
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .work {
+    .title {
+      font-size: var(--3xl);
+    }
+  
+    .projects {
+      gap: 1rem;
+  
+      .project__card { 
+        gap: 0.5rem;
+        .project__info {
+          gap: 1em;
+          .title {
+            font-size: var(--3xl);
+          }
+          .tech {
+            .tech__style {
+              font-size: var(--base);
+            }
+          }
+          .description {
+            .desc {
+              font-size: var(--base);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+  .work {
+    .projects {
+      .project__card {
+        flex-direction: row;
+        gap: 0.5rem;
+        &.fd {
+          flex-direction: row;
+        }
+  
+        &.fdr {
+          flex-direction: row-reverse;
+          gap: 2em;
+        }
+        .project__img {
+          max-width: 40%;
+          img {
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+          }
+        }
+
+        .project__info {
+          // max-width: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 1em;
+          .title {
+            font-size: var(--3xl);
+          }
+          .tech {
+            .tech__style {
+              font-size: var(--base);
+            }
+          }
+          .description {
+            .desc {
+              font-size: var(--base);
+              text-align:start;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .work {
+    .title {
+      font-size: var(--4xl);
+    }
+    .projects {
+      .project__card {
+        flex-direction: row;
+        gap: 0.5rem;
+        .project__img {
+          max-width: 40%;
+          img {
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+          }
+        }
+
+        .project__info {
+          max-width: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 1em;
+          .title {
+            font-size: var(--4xl);
+          }
+          .tech {
+            .tech__style {
+              font-size: var(--lg);
+            }
+          }
+          .description {
+            .desc {
+              font-size: var(--lg);
+              text-align:start;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .work {
+    .title {
+      font-size: var(--5xl);
+    }
+    .projects {
+      .project__card {
+        flex-direction: row;
+        gap: 0.5rem;
+        .project__img {
+          max-width: 40%;
+          img {
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+          }
+        }
+
+        .project__info {
+          max-width: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 1em;
+          .title {
+            font-size: var(--5xl);
+          }
+          .tech {
+            .tech__style {
+              font-size: var(--xl);
+            }
+          }
+          .description {
+            .desc {
+              font-size: var(--xl);
+              text-align:start;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
