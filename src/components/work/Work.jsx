@@ -5,7 +5,7 @@ import projects from './projects';
 const Work = () => {
   return (
     <div className="work container section">
-      <h2 className="title">What I Have Done</h2>
+      <h2 className="title">What I Have Done...</h2>
       <div className="projects">
       {projects.map((project, index) => (
           <div
@@ -34,7 +34,7 @@ const Work = () => {
       </div>
         ))}
     </div>
-    </div >
+    </div>
   );
 };
 
