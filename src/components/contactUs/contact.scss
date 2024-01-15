@@ -1,0 +1,215 @@
+.contact {
+  .title {
+    font-size: var(--2xl);
+    color: var(--light);
+  }
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+    .contactLeft {
+      // display: none;
+      display: flex;
+      flex-direction: column;
+      flex-basis: 30%;
+      flex-grow: 1;
+      gap: 1.5rem;
+      font-size: var(--sm);
+      padding-left: 1rem;
+      p i {
+        color: var(--indigo);
+        font-size: var(--sm);
+        margin-right: 0.5rem;
+        cursor: pointer;
+      }
+    }
+    .contactRight {
+      //   flex-basis: 60%;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      font-size: var(--sm);
+      gap: 1rem;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        > input {
+          padding: 0.5rem 1rem;
+          border-radius: 0.5rem;
+          background: var(--dark1);
+          border: none;
+          color: var(--light);
+        }
+        > textarea {
+          padding: 0.5rem 1rem;
+          border-radius: 0.5rem;
+          background: var(--dark1);
+          border: none;
+          color: var(--light);
+        }
+        > button {
+          padding: 0.5rem 2rem;
+          background: var(--indigo);
+          border: none;
+          border-radius: 2rem;
+          font-size: var(--sm);
+          margin: 1rem 1rem 1rem 0;
+          width: 8rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .contact {
+    .title {
+      font-size: var(--3xl);
+      color: var(--light);
+    }
+    .contactContainer {
+      gap: 1em;
+      .contactRight {
+        font-size: var(--base);
+        gap: 1rem;
+
+        form {
+          // display: flex;
+          // flex-direction: column;
+          gap: 1rem;
+          // > input {
+          //   padding: 0.5rem 1rem;
+          //   border-radius: 0.5rem;
+          //   background: var(--dark1);
+          //   border: none;
+          //   color: var(--light);
+          // }
+          // > textarea {
+          //   padding: 0.5rem 1rem;
+          //   border-radius: 0.5rem;
+          //   background: var(--dark1);
+          //   border: none;
+          //   color: var(--light);
+          // }
+          > button{
+              font-size: var(--base);
+              margin: 1rem 1rem 1rem 0;
+              width: 8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+  .contact {
+    .contactContainer {
+      flex-direction: row;
+      justify-content: center;
+      gap: 1em;
+      .contactLeft {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+        flex-grow: 1;
+        gap: 1.5rem;
+        font-size: var(--sm);
+        padding-left: 1rem;
+        p i {
+          color: var(--indigo);
+          font-size: var(--sm);
+          margin-right: 0.5rem;
+          cursor: pointer;
+        }
+      }
+      .contactRight {
+        flex-basis: 65%;
+        flex-grow: 1;
+        font-size: var(--sm);
+        gap: 1rem;
+      }
+    }
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .contact {
+    .title {
+      font-size: var(--4xl);
+      color: var(--light);
+    }
+    .contactContainer {
+      gap: 1em;
+      margin-top: 1.5em;
+      .contactLeft {
+        gap: 1.5em;
+        font-size: var(--lg);
+        p i {
+          font-size: var(--lg);
+        }
+      }
+      .contactRight {
+        font-size: var(--lg);
+        gap: 1.5rem;
+        form {
+          gap: 1.5rem;
+          > button{
+              font-size: var(--lg);
+              margin: 1rem 1rem 1rem 0;
+              width: 8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .contact {
+    .title {
+      font-size: var(--5xl);
+      color: var(--light);
+    }
+    .contactContainer {
+      gap: 1em;
+      margin-top: 2em;
+      .contactLeft {
+        gap: 1.5rem;
+        font-size: var(--xl);
+        p i {
+          font-size: var(--xl);
+        }
+      }
+      .contactRight {
+        font-size: var(--xl);
+        gap: 1.5rem;
+        form {
+          gap: 2rem;
+          > button{
+              font-size: var(--xl);
+              margin: 1rem 1rem 1rem 0;
+              width: 8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}

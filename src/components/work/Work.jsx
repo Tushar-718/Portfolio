@@ -26,7 +26,7 @@ const Work = () => {
             <p className='desc'>{project.description}</p>
           </div>
           <div className="visitButton">
-            <a className="btn" href="">
+            <a className="btn" href={project.url}>
               Website
             </a>
           </div>
