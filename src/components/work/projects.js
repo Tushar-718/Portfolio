@@ -36,7 +36,7 @@ let projects=[
         title:"QR-Code Generator",
         technologies:["HTML","CSS","Javascript"],
         imageSource:"Screenshot_4",
-        description:"A QR code generator is an application that stores any required textual data into a QR code which can be later scanned with a QR code scanner to reveal the stored information",
+        description:"A QR code generator is an application that stores any required textual data into a QR code which can be later scanned with a QR code scanner to reveal the stored information.",
         url:"https://qr-code-generating-app.netlify.app"
     },
 ]

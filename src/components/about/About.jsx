@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 
 const About = () => {
   return (
-    <div className="about container section">
+    <div id="about" className="container section">
       <div className="about__content">
         <h2 className="about__title">Who Am I?</h2>
         <p className="about__desc">Committed and goal-oriented <a>Information technology</a> graduate looking to pursue a career in the Front end developer domain. Possess excellent knowledge web technologies. Ability to learn things quickly and capable of working in a fast-paced and team-driven environment.</p>

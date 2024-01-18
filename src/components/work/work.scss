@@ -1,4 +1,4 @@
-.work {
+#work {
   .title {
     font-size: var(--2xl);
     color: var(--light);
@@ -42,8 +42,8 @@
           .tech__style {
             background-color: var(--indigo);
             border-radius: 5px;
-            padding: 5px;
-            margin-right: 0.5rem;
+            padding: 5px 8px;
+            margin-right: 0.8rem;
             font-weight: 500;
             font-size: var(--sm);
           }
@@ -62,7 +62,7 @@
 
 /* xs */
 @media (min-width: 475px) {
-  .work {
+  #work {
     .title {
       font-size: var(--3xl);
     }
@@ -99,7 +99,7 @@
 
 /* md */
 @media (min-width: 768px) {
-  .work {
+  #work {
     .projects {
       .project__card {
         flex-direction: row;
@@ -149,7 +149,7 @@
 
 /* lg */
 @media (min-width: 1024px) {
-  .work {
+  #work {
     .title {
       font-size: var(--4xl);
     }
@@ -178,7 +178,6 @@
           .tech {
             .tech__style {
               font-size: var(--lg);
-              margin-right: 1em;
             }
           }
           .description {
@@ -195,7 +194,7 @@
 
 /* xl */
 @media (min-width: 1280px) {
-  .work {
+  #work {
     .title {
       font-size: var(--5xl);
     }

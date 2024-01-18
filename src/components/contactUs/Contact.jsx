@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 
 const Contact = () => {
     return (
-        <div className="contact container section">
+        <div id="contact" className="container section">
             <h2 className="title">Get In Touch</h2>
             <div className="contactContainer">
                 <div className="contactLeft">

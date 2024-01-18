@@ -4,7 +4,7 @@ import projects from './projects';
 
 const Work = () => {
   return (
-    <div className="work container section">
+    <div id="work" className="container section">
       <h2 className="title">What I Have Done...</h2>
       <div className="projects">
       {projects.map((project, index) => (
