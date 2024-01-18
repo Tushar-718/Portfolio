@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import "./../header/header.scss"
 import "./../../utils.css"
 import { Link } from "react-scroll"
-// import { IoSunnySharp } from "react-icons/io5";
-// import { IoMoonSharp } from "react-icons/io5";
 import { FaBars } from "react-icons/fa6";
 
 const Header = () => {
