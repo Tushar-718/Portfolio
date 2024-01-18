@@ -1,6 +1,6 @@
 import React from "react";
 import "./../about/about.scss";
-import codings from "../../../src/assets/lottie/coding.json";
+import development from "../../../src/assets/lottie/development.json";
 import Lottie from "lottie-react";
 
 const About = () => {
@@ -49,7 +49,7 @@ const About = () => {
       </div>
       </div>
       <div className="about__img">
-        <Lottie animationData={codings} />
+        <Lottie animationData={development} />
       </div>
     </div>
   );

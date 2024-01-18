@@ -7,30 +7,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1em;
     margin-top: 1em;
     .contactLeft {
-      // display: none;
       display: flex;
-      flex-direction: column;
       flex-basis: 30%;
       flex-grow: 1;
       gap: 1.5rem;
-      font-size: var(--sm);
-      padding-left: 1rem;
-      p i {
-        color: var(--indigo);
-        font-size: var(--sm);
-        margin-right: 0.5rem;
-        cursor: pointer;
-      }
     }
     .contactRight {
       //   flex-basis: 60%;
       display: flex;
       flex-direction: column;
       flex-grow: 1;
-      font-size: var(--sm);
+      font-size: var(--base);
       gap: 1rem;
 
       form {
@@ -39,28 +30,51 @@
         gap: 1rem;
         > input {
           padding: 0.5rem 1rem;
-          border-radius: 0.5rem;
+          border-radius: 6px;
           background: var(--dark1);
           border: none;
           color: var(--light);
         }
         > textarea {
           padding: 0.5rem 1rem;
-          border-radius: 0.5rem;
+          border-radius: 6px;
           background: var(--dark1);
           border: none;
           color: var(--light);
         }
-        > button {
-          padding: 0.5rem 2rem;
-          background: var(--indigo);
-          border: none;
-          border-radius: 2rem;
-          font-size: var(--sm);
-          margin: 1rem 1rem 1rem 0;
-          width: 8rem;
-          cursor: pointer;
+        .submit {
+          text-align: center;
+          > button {
+            padding: 0.5rem 2rem;
+            background: var(--indigo);
+            border: none;
+            border-radius: 2em;
+            font-size: var(--sm);
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
         }
+      }
+    }
+  }
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    gap: 1em;
+    .personalInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
+      font-size: var(--sm);
+      p i {
+        color: var(--indigo);
+        font-size: var(--sm);
+        margin-right: 0.5rem;
       }
     }
   }
@@ -78,30 +92,23 @@
       .contactRight {
         font-size: var(--base);
         gap: 1rem;
-
         form {
-          // display: flex;
-          // flex-direction: column;
           gap: 1rem;
-          // > input {
-          //   padding: 0.5rem 1rem;
-          //   border-radius: 0.5rem;
-          //   background: var(--dark1);
-          //   border: none;
-          //   color: var(--light);
-          // }
-          // > textarea {
-          //   padding: 0.5rem 1rem;
-          //   border-radius: 0.5rem;
-          //   background: var(--dark1);
-          //   border: none;
-          //   color: var(--light);
-          // }
-          > button{
+          .submit {
+            > button {
               font-size: var(--base);
-              margin: 1rem 1rem 1rem 0;
-              width: 8rem;
+            }
           }
+        }
+      }
+    }
+    .infoContainer {
+      gap: 1em;
+      .personalInfo {
+        gap: 1em;
+        font-size: var(--base);
+        p i {
+          font-size: var(--base);
         }
       }
     }
@@ -115,30 +122,40 @@
 /* md */
 @media (min-width: 768px) {
   .contact {
+    .title {
+      font-size: var(--3xl);
+      color: var(--light);
+    }
     .contactContainer {
       flex-direction: row;
-      justify-content: center;
       gap: 1em;
-      .contactLeft {
-        display: flex;
-        flex-direction: column;
-        flex-basis: 30%;
+      .contactRight {
+        flex-basis: 60%;
         flex-grow: 1;
-        gap: 1.5rem;
-        font-size: var(--sm);
-        padding-left: 1rem;
-        p i {
-          color: var(--indigo);
-          font-size: var(--sm);
-          margin-right: 0.5rem;
-          cursor: pointer;
+        font-size: var(--base);
+        gap: 1em;
+
+        form {
+          gap: 1.5em;
+          .submit {
+            text-align: center;
+            > button {
+              font-size: var(--base);
+            }
+          }
         }
       }
-      .contactRight {
-        flex-basis: 65%;
-        flex-grow: 1;
-        font-size: var(--sm);
-        gap: 1rem;
+    }
+    .infoContainer {
+      gap: 1em;
+      .personalInfo {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        font-size: var(--base);
+        p i {
+          font-size: var(--base);
+        }
       }
     }
   }
@@ -152,25 +169,34 @@
       color: var(--light);
     }
     .contactContainer {
+      flex-direction: row;
       gap: 1em;
-      margin-top: 1.5em;
-      .contactLeft {
+      .contactRight {
+        flex-basis: 60%;
+        flex-grow: 1;
+        font-size: var(--lg);
+        gap: 1em;
+
+        form {
+          gap: 1.5em;
+          .submit {
+            text-align: center;
+            > button {
+              font-size: var(--lg);
+            }
+          }
+        }
+      }
+    }
+    .infoContainer {
+      gap: 1.5em;
+      .personalInfo {
+        display: flex;
+        flex-direction: row;
         gap: 1.5em;
         font-size: var(--lg);
         p i {
           font-size: var(--lg);
-        }
-      }
-      .contactRight {
-        font-size: var(--lg);
-        gap: 1.5rem;
-        form {
-          gap: 1.5rem;
-          > button{
-              font-size: var(--lg);
-              margin: 1rem 1rem 1rem 0;
-              width: 8rem;
-          }
         }
       }
     }
@@ -179,35 +205,44 @@
 
 /* xl */
 @media (min-width: 1280px) {
-  .contact {
-    .title {
-      font-size: var(--5xl);
-      color: var(--light);
-    }
-    .contactContainer {
-      gap: 1em;
-      margin-top: 2em;
-      .contactLeft {
-        gap: 1.5rem;
-        font-size: var(--xl);
-        p i {
-          font-size: var(--xl);
+    .contact {
+        .title {
+          font-size: var(--5xl);
+          color: var(--light);
         }
-      }
-      .contactRight {
-        font-size: var(--xl);
-        gap: 1.5rem;
-        form {
-          gap: 2rem;
-          > button{
+        .contactContainer {
+          flex-direction: row;
+          gap: 1em;
+          .contactRight {
+            flex-basis: 60%;
+            flex-grow: 1;
+            font-size: var(--xl);
+            gap: 1em;
+    
+            form {
+              gap: 1.5em;
+              .submit {
+                text-align: center;
+                > button {
+                  font-size: var(--xl);
+                }
+              }
+            }
+          }
+        }
+        .infoContainer {
+          gap: 1.5em;
+          .personalInfo {
+            display: flex;
+            flex-direction: row;
+            gap: 2em;
+            font-size: var(--xl);
+            p i {
               font-size: var(--xl);
-              margin: 1rem 1rem 1rem 0;
-              width: 8rem;
+            }
           }
         }
       }
-    }
-  }
 }
 
 /* 2xl */
