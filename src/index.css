@@ -67,6 +67,7 @@ button {
 
 a {
   color: var(--yellow);
+  /* font-weight: 500; */
 }
 
 strong {

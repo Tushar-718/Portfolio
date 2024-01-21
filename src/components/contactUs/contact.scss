@@ -77,6 +77,11 @@
         margin-right: 0.5rem;
       }
     }
+    .cvButton {
+      a {
+        font-size: var(--sm);
+      }
+    }
   }
 }
 
@@ -103,11 +108,16 @@
       }
     }
     .infoContainer {
-      gap: 1em;
+      gap: 1.5em;
       .personalInfo {
-        gap: 1.5em;
+        gap: 1em;
         font-size: var(--base);
         p i {
+          font-size: var(--base);
+        }
+      }
+      .cvButton {
+        a {
           font-size: var(--base);
         }
       }
@@ -190,13 +200,17 @@
     }
     .infoContainer {
       gap: 2em;
-      margin-top: 3em;
       .personalInfo {
         display: flex;
         flex-direction: row;
-        gap: 1.5em;
+        gap: 2em;
         font-size: var(--lg);
         p i {
+          font-size: var(--lg);
+        }
+      }
+      .cvButton {
+        a {
           font-size: var(--lg);
         }
       }
@@ -206,45 +220,49 @@
 
 /* xl */
 @media (min-width: 1280px) {
-    #contact {
-        .title {
-          font-size: var(--5xl);
-          color: var(--light);
-        }
-        .contactContainer {
-          flex-direction: row;
-          gap: 1em;
-          .contactRight {
-            flex-basis: 60%;
-            flex-grow: 1;
-            font-size: var(--xl);
-            gap: 1em;
-    
-            form {
-              gap: 1.5em;
-              .submit {
-                text-align: center;
-                > button {
-                  font-size: var(--xl);
-                }
-              }
-            }
-          }
-        }
-        .infoContainer {
-          gap: 2.5em;
-          margin-top: 3.5em;
-          .personalInfo {
-            display: flex;
-            flex-direction: row;
-            gap: 2em;
-            font-size: var(--xl);
-            p i {
+  #contact {
+    .title {
+      font-size: var(--5xl);
+      color: var(--light);
+    }
+    .contactContainer {
+      flex-direction: row;
+      gap: 1em;
+      .contactRight {
+        flex-basis: 60%;
+        flex-grow: 1;
+        font-size: var(--xl);
+        gap: 1em;
+
+        form {
+          gap: 1.5em;
+          .submit {
+            text-align: center;
+            > button {
               font-size: var(--xl);
             }
           }
         }
       }
+    }
+    .infoContainer {
+      gap: 2.5em;
+      .personalInfo {
+        display: flex;
+        flex-direction: row;
+        gap: 2.5em;
+        font-size: var(--xl);
+        p i {
+          font-size: var(--xl);
+        }
+      }
+      .cvButton {
+        a {
+          font-size: var(--xl);
+        }
+      }
+    }
+  }
 }
 
 /* 2xl */
