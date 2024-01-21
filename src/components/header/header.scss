@@ -21,7 +21,7 @@
     border-radius: 50%;
     // position: fixed;
     cursor: pointer;
-    svg{
+    svg {
       position: absolute;
       top: 40px;
       right: 15px;
@@ -95,8 +95,10 @@
         cursor: pointer;
       }
       .resume {
-        font-size: var(--xs);
-        cursor: pointer;
+        a {
+          font-size: var(--xs);
+          cursor: pointer;
+        }
       }
     }
     .bars {
@@ -117,7 +119,9 @@
         height: var(--xl);
       }
       .resume {
-        font-size: var(--sm);
+        a {
+          font-size: var(--sm);
+        }
       }
     }
   }
@@ -131,7 +135,9 @@
         font-size: var(--base);
       }
       .resume {
-        font-size: var(--sm);
+        a {
+          font-size: var(--sm);
+        }
       }
     }
   }
@@ -145,7 +151,9 @@
         font-size: var(--lg);
       }
       .resume {
-        font-size: var(--base);
+        a {
+          font-size: var(--base);
+        }
       }
     }
   }

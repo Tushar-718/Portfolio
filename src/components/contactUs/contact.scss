@@ -105,7 +105,7 @@
     .infoContainer {
       gap: 1em;
       .personalInfo {
-        gap: 1em;
+        gap: 1.5em;
         font-size: var(--base);
         p i {
           font-size: var(--base);
@@ -232,7 +232,7 @@
           }
         }
         .infoContainer {
-          gap: 1.5em;
+          gap: 2.5em;
           margin-top: 3.5em;
           .personalInfo {
             display: flex;

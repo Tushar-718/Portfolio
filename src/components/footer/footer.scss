@@ -1,8 +1,42 @@
 #footer {
-    width: 100%;
-    text-align: center;
-    padding: 2rem 0;
-    color: var(--light);
-    font-weight: 500;
-    background: var(--dark1);
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--light);
+  font-size: var(--sm);
+  font-weight: 500;
+  background: var(--dark1);
+}
+
+/* xs */
+@media (min-width: 475px) {
+  #footer {
+    font-size: var(--base);
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  #footer {
+    font-size: var(--lg);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  #footer {
+    font-size: var(--xl);
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
 }
