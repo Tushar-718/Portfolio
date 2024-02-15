@@ -47,7 +47,7 @@ const Contact = () => {
                     <p><i class="fa-brands fa-github"></i>https://github.com/Tushar-718</p>
                 </div>
                 <div className='cvButton'>
-                    <a className="btn" href="https://drive.google.com/file/d/16wjTuAv6Z8ydLoSfJSTGpPp2VykzWLG4/view?usp=drivesdk">Download CV</a>
+                    <a className="btn" href="https://drive.google.com/file/d/1BY6qUl1xWiFANSuydtwIWpFnivmKnJLd/view?usp=drivesdk">Download CV</a>
                 </div>
             </div>
         </div>

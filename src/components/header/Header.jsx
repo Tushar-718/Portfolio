@@ -16,7 +16,7 @@ const Header = () => {
                     <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className="linkItems">Contact</Link>
                     <div className='line'></div>
                     <div className="resume">
-                        <a className="btn" href="https://drive.google.com/file/d/16wjTuAv6Z8ydLoSfJSTGpPp2VykzWLG4/view?usp=drivesdk">Resume</a></div>
+                        <a className="btn" href="https://drive.google.com/file/d/1BY6qUl1xWiFANSuydtwIWpFnivmKnJLd/view?usp=drivesdk">Resume</a></div>
                 </div>
                 <div className="bars mobMenu"><FaBars onClick={() => setShowMenu(!showMenu)} />
                     <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
