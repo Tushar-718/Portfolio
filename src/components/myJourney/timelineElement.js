@@ -1,6 +1,15 @@
 let timelineElements=[
     {
         id:1,
+        title:"Software Development Engineer 1 (SDE-1)",
+        company:"Matpatra",
+        location:"Gurugram",
+        date:"Jul 2024 - Present",
+        desc:`A Software Development Engineer 1 (SDE-1) – React Native develops cross-platform mobile applications using React Native, JavaScript/TypeScript, Redux, and APIs. They collaborate with designers and backend teams, optimize performance, debug issues, and ensure smooth UI/UX. Strong problem-solving, version control (Git), and agile development skills are essential for this role.`,
+        icon:"work"
+    },
+    {
+        id:2,
         title:"Web Developer Trainee",
         company:"Magic Edtech",
         location:"Noida",
@@ -9,7 +18,7 @@ let timelineElements=[
         icon:"work"
     },
     {
-        id:2,
+        id:3,
         title:"Bachelors Of Technology in Information Technology",
         company:"Maharaja Surajmal Institute of Technology",
         location:"Delhi",
@@ -18,7 +27,7 @@ let timelineElements=[
         icon:"school"
     },
     {
-        id:3,
+        id:4,
         title:"Class XII",
         company:"Kendriya Vidyalaya Andrews Ganj",
         location:"Delhi",
@@ -27,7 +36,7 @@ let timelineElements=[
         icon:"school"
     },
     {
-        id:4,
+        id:5,
         title:"Class X",
         company:"Kendriya Vidyalaya Andrews Ganj",
         location:"Delhi",
