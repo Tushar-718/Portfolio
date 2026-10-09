@@ -9,24 +9,23 @@ const About = () => {
       <div className="about__content">
         <h2 className="about__title">Who Am I?</h2>
         <p className="about__desc">
-          Passionate and results-driven <strong>Software Development Engineer (SDE-1) </strong>
-          with 1.5 years of experience in mobile and web application
-          development. Currently working as an <a>App Developer</a>, I specialize in
-          building high-performance, cross-platform applications using React
-          Native, JavaScript/TypeScript, Redux, Next JS, and modern UI frameworks.
+          Passionate and results-driven <strong>React Native & Mobile Developer </strong>
+          with <strong>3 years</strong> of experience shipping high-performance
+          <strong> Android and iOS</strong> apps using <a>React Native, Expo, and TypeScript</a>,
+          as well as responsive web applications with <strong>React.js and Next.js</strong>.
         </p>
         <p className="about__desc">
-          Beyond coding, I am committed to continuous learning, staying updated
-          with industry trends, and refining my problem-solving abilities. My
-          goal is to evolve into a well-rounded engineer, contributing to
-          innovative solutions and pushing the boundaries of mobile development.
+          I have delivered <strong>5+ mobile apps</strong> to the Google Play Store
+          and Apple App Store, spanning enterprise B2B workflows, offline-first real-time
+          chat SDKs, and IoT integrations with BLE and NFC. I actively leverage an
+          <strong> AI-assisted workflow</strong> with <a>Claude Code</a> and MCP integrations to
+          accelerate feature delivery, conduct rigorous PR reviews, and debug production systems.
         </p>
         <p className="about__desc">
-          I take pride in writing clean, maintainable code and ensuring every
-          product I work on meets the highest standards of quality and
-          usability. As I grow in my career, I am eager to take on new
-          challenges, explore emerging technologies, and make a meaningful
-          impact in the world of app development. 🚀
+          I take pride in writing clean, scalable, and maintainable code with robust
+          state management and modern UI architecture. Committed to continuous growth
+          and solving challenging technical problems, I strive to build seamless,
+          high-impact user experiences. 🚀
         </p>
         <hr className="about__hr" />
         <div className="about__skillTool">
@@ -34,23 +33,26 @@ const About = () => {
             <h3 className="about__subtitle">SKILLS</h3>
             <div className="about__ul-container">
               <ul className="about__ul">
-                <li className="about__list">REACT JS</li>
-                <li className="about__list">NEXT JS</li>
-                <li className="about__list">REACT NATIVE</li>
-                <li className="about__list">SQL</li>
-                <li className="about__list">RESPONSIVE WEB DESIGN</li>
-                <li className="about__list">TAILWIND CSS</li>
+                <li className="about__list">REACT NATIVE & EXPO</li>
+                <li className="about__list">REACT JS & NEXT JS</li>
+                <li className="about__list">TYPESCRIPT & JAVASCRIPT</li>
+                <li className="about__list">REDUX TOOLKIT & TANSTACK QUERY</li>
+                <li className="about__list">WEBSOCKET & REST APIS</li>
+                <li className="about__list">BLE & NFC INTEGRATION</li>
+                <li className="about__list">TAILWIND CSS & SCSS</li>
               </ul>
             </div>
           </div>
           <div className="skill__container">
-            <h3 className="about__subtitle">TOOLS</h3>
+            <h3 className="about__subtitle">TOOLS & AI</h3>
             <div className="about__ul-container">
               <ul className="about__ul">
-                <li className="about__list">GIT</li>
-                <li className="about__list">JIRA</li>
-                <li className="about__list">BITBUCKET</li>
-                <li className="about__list">SVN</li>
+                <li className="about__list">CLAUDE CODE & MCP</li>
+                <li className="about__list">GIT & GITHUB</li>
+                <li className="about__list">XCODE & ANDROID STUDIO</li>
+                <li className="about__list">EAS BUILD & OTA UPDATES</li>
+                <li className="about__list">FIREBASE & WATERMELONDB</li>
+                <li className="about__list">POSTMAN & JIRA</li>
               </ul>
             </div>
           </div>

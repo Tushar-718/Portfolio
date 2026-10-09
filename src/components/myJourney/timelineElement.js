@@ -1,24 +1,42 @@
 let timelineElements=[
     {
         id:1,
-        title:"Software Development Engineer 1 (SDE-1)",
-        company:"Matpatra",
+        title:"Software Developer | React Native Developer",
+        company:"Antino Labs",
         location:"Gurugram",
-        date:"Jul 2024 - Present",
-        desc:`A Software Development Engineer 1 (SDE-1) – React Native develops cross-platform mobile applications using React Native, JavaScript/TypeScript, Redux, and APIs. They collaborate with designers and backend teams, optimize performance, debug issues, and ensure smooth UI/UX. Strong problem-solving, version control (Git), and agile development skills are essential for this role.`,
+        date:"Feb 2026 - Present",
+        desc:`Developed core features of a B2B corporate travel app using React Native, Expo, and TypeScript. Implemented approval workflows, vendor SSO, and shipped 12+ releases with EAS Build and OTA updates.`,
         icon:"work"
     },
     {
         id:2,
-        title:"Web Developer Trainee",
-        company:"Magic Edtech",
+        title:"Software Engineer | React Native Developer",
+        company:"Spraxa Solutions",
         location:"Noida",
-        date:"Nov 2022 - Sept 2023",
-        desc:`Assisted in the development of E-books.  Developing E-books for the client and integrating them with animations, games and interactivity to make book more lively.`,
+        date:"Nov 2025 - Jan 2026",
+        desc:`Built IoT device integrations using BLE and NFC for hardware communication and secure pairing. Ensured Android compliance by resolving the 16KB page size requirement.`,
         icon:"work"
     },
     {
         id:3,
+        title:"SDE-1 | React Native Developer",
+        company:"Tech Matpatra",
+        location:"Gurugram",
+        date:"Jul 2024 - Sep 2025",
+        desc:`Delivered 5+ mobile apps to the App Store and Google Play Store. Built a reusable offline-first chat SDK using WebSocket and WatermelonDB, and implemented in-app purchases and subscriptions.`,
+        icon:"work"
+    },
+    {
+        id:4,
+        title:"Web Developer | Next.js",
+        company:"Magic Edtech",
+        location:"Noida",
+        date:"Nov 2022 - Sep 2023",
+        desc:`Built multilingual e-book web applications in Next.js and React.js with modular components. Reduced bundle size by 30% through code splitting and lazy loading.`,
+        icon:"work"
+    },
+    {
+        id:5,
         title:"Bachelors Of Technology in Information Technology",
         company:"Maharaja Surajmal Institute of Technology",
         location:"Delhi",
@@ -27,7 +45,7 @@ let timelineElements=[
         icon:"school"
     },
     {
-        id:4,
+        id:6,
         title:"Class XII",
         company:"Kendriya Vidyalaya Andrews Ganj",
         location:"Delhi",
@@ -36,7 +54,7 @@ let timelineElements=[
         icon:"school"
     },
     {
-        id:5,
+        id:7,
         title:"Class X",
         company:"Kendriya Vidyalaya Andrews Ganj",
         location:"Delhi",
