@@ -11,21 +11,21 @@ const About = () => {
         <p className="about__desc">
           Passionate and results-driven <strong>React Native & Mobile Developer </strong>
           with <strong>3 years</strong> of experience shipping high-performance
-          <strong> Android and iOS</strong> apps using <a>React Native, Expo, and TypeScript</a>,
-          as well as responsive web applications with <strong>React.js and Next.js</strong>.
+          <strong> Android and iOS</strong> apps using <a>React Native, Expo, and TypeScript</a>, as
+          well as responsive web applications with <strong>React.js and Next.js</strong>.
         </p>
         <p className="about__desc">
-          I have delivered <strong>5+ mobile apps</strong> to the Google Play Store
-          and Apple App Store, spanning enterprise B2B workflows, offline-first real-time
-          chat SDKs, and IoT integrations with BLE and NFC. I actively leverage an
+          I have delivered <strong>5+ mobile apps</strong> to the Google Play Store and Apple App
+          Store, spanning enterprise B2B workflows, offline-first real-time chat SDKs, and IoT
+          integrations with BLE and NFC. I actively leverage an
           <strong> AI-assisted workflow</strong> with <a>Claude Code</a> and MCP integrations to
           accelerate feature delivery, conduct rigorous PR reviews, and debug production systems.
         </p>
         <p className="about__desc">
-          I take pride in writing clean, scalable, and maintainable code with robust
-          state management and modern UI architecture. Committed to continuous growth
-          and solving challenging technical problems, I strive to build seamless,
-          high-impact user experiences. 🚀
+          I take pride in writing clean, scalable, and maintainable code with robust state
+          management and modern UI architecture. Committed to continuous growth and solving
+          challenging technical problems, I strive to build seamless, high-impact user experiences.
+          🚀
         </p>
         <hr className="about__hr" />
         <div className="about__skillTool">

@@ -1,66 +1,66 @@
-let timelineElements=[
-    {
-        id:1,
-        title:"Software Developer | React Native Developer",
-        company:"Antino Labs",
-        location:"Gurugram",
-        date:"Feb 2026 - Present",
-        desc:`Developed core features of a B2B corporate travel app using React Native, Expo, and TypeScript. Implemented approval workflows, vendor SSO, and shipped 12+ releases with EAS Build and OTA updates.`,
-        icon:"work"
-    },
-    {
-        id:2,
-        title:"Software Engineer | React Native Developer",
-        company:"Spraxa Solutions",
-        location:"Noida",
-        date:"Nov 2025 - Jan 2026",
-        desc:`Built IoT device integrations using BLE and NFC for hardware communication and secure pairing. Ensured Android compliance by resolving the 16KB page size requirement.`,
-        icon:"work"
-    },
-    {
-        id:3,
-        title:"SDE-1 | React Native Developer",
-        company:"Tech Matpatra",
-        location:"Gurugram",
-        date:"Jul 2024 - Sep 2025",
-        desc:`Delivered 5+ mobile apps to the App Store and Google Play Store. Built a reusable offline-first chat SDK using WebSocket and WatermelonDB, and implemented in-app purchases and subscriptions.`,
-        icon:"work"
-    },
-    {
-        id:4,
-        title:"Web Developer | Next.js",
-        company:"Magic Edtech",
-        location:"Noida",
-        date:"Nov 2022 - Sep 2023",
-        desc:`Built multilingual e-book web applications in Next.js and React.js with modular components. Reduced bundle size by 30% through code splitting and lazy loading.`,
-        icon:"work"
-    },
-    {
-        id:5,
-        title:"Bachelors Of Technology in Information Technology",
-        company:"Maharaja Surajmal Institute of Technology",
-        location:"Delhi",
-        date:"Aug 2018 - Jun 2022",
-        desc:"Percentage : 80.09 %",
-        icon:"school"
-    },
-    {
-        id:6,
-        title:"Class XII",
-        company:"Kendriya Vidyalaya Andrews Ganj",
-        location:"Delhi",
-        date:"Apr 2017 - Jun 2018",
-        desc:"Percentage : 70.80 %",
-        icon:"school"
-    },
-    {
-        id:7,
-        title:"Class X",
-        company:"Kendriya Vidyalaya Andrews Ganj",
-        location:"Delhi",
-        date:"Jun 2015 - May 2016",
-        desc:"Percentage : 81.70 %",
-        icon:"school"
-    },
-]
+let timelineElements = [
+  {
+    id: 1,
+    title: "Software Developer | React Native Developer",
+    company: "Antino Labs",
+    location: "Gurugram",
+    date: "Feb 2026 - Present",
+    desc: `Developed core features of a B2B corporate travel app using React Native, Expo, and TypeScript. Implemented approval workflows, vendor SSO, and shipped 12+ releases with EAS Build and OTA updates.`,
+    icon: "work",
+  },
+  {
+    id: 2,
+    title: "Software Engineer | React Native Developer",
+    company: "Spraxa Solutions",
+    location: "Noida",
+    date: "Nov 2025 - Jan 2026",
+    desc: `Built IoT device integrations using BLE and NFC for hardware communication and secure pairing. Ensured Android compliance by resolving the 16KB page size requirement.`,
+    icon: "work",
+  },
+  {
+    id: 3,
+    title: "SDE-1 | React Native Developer",
+    company: "Tech Matpatra",
+    location: "Gurugram",
+    date: "Jul 2024 - Sep 2025",
+    desc: `Delivered 5+ mobile apps to the App Store and Google Play Store. Built a reusable offline-first chat SDK using WebSocket and WatermelonDB, and implemented in-app purchases and subscriptions.`,
+    icon: "work",
+  },
+  {
+    id: 4,
+    title: "Web Developer | Next.js",
+    company: "Magic Edtech",
+    location: "Noida",
+    date: "Nov 2022 - Sep 2023",
+    desc: `Built multilingual e-book web applications in Next.js and React.js with modular components. Reduced bundle size by 30% through code splitting and lazy loading.`,
+    icon: "work",
+  },
+  {
+    id: 5,
+    title: "Bachelors Of Technology in Information Technology",
+    company: "Maharaja Surajmal Institute of Technology",
+    location: "Delhi",
+    date: "Aug 2018 - Jun 2022",
+    desc: "Percentage : 80.09 %",
+    icon: "school",
+  },
+  {
+    id: 6,
+    title: "Class XII",
+    company: "Kendriya Vidyalaya Andrews Ganj",
+    location: "Delhi",
+    date: "Apr 2017 - Jun 2018",
+    desc: "Percentage : 70.80 %",
+    icon: "school",
+  },
+  {
+    id: 7,
+    title: "Class X",
+    company: "Kendriya Vidyalaya Andrews Ganj",
+    location: "Delhi",
+    date: "Jun 2015 - May 2016",
+    desc: "Percentage : 81.70 %",
+    icon: "school",
+  },
+];
 export default timelineElements;

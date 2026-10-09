@@ -14,8 +14,8 @@ const Hero = () => {
         DEVELOPER.
       </h1>
       <p className="desc">
-        With expertise in <strong>mobile app development</strong> and <a>React Native</a>, I build high-performance
-        applications resulting in quality work.
+        With expertise in <strong>mobile app development</strong> and <a>React Native</a>, I build
+        high-performance applications resulting in quality work.
       </p>
       {/* <a className="hero__btn btn" href="contact">Reach out</a> */}
       <Link
