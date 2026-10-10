@@ -1,0 +1,11 @@
+dist
+node_modules
+package-lock.json
+public
+src/assets/lottie
+.DS_Store
+
+
+# AI tools
+.ai/
+.ai

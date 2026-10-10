@@ -6,7 +6,7 @@
   align-items: center;
   gap: 1rem;
   margin-top: 2rem;
-  .img__container{
+  .img__container {
     .image {
       width: 6rem;
       height: 6rem;
@@ -38,8 +38,8 @@
   .hero {
     gap: 1.5rem;
     margin-top: 2rem;
-    .img__container{
-      .image{
+    .img__container {
+      .image {
         width: 6.5rem;
         height: 6.5rem;
       }
@@ -70,53 +70,54 @@
 
 /* lg */
 @media (min-width: 1024px) {
-    .hero {
-      .img__container{
-        .image {
-          width: 8rem;
-          height: 8rem;
-        }
+  .hero {
+    .img__container {
+      .image {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
       }
-        .subtitle {
-          font-size: var(--2xl);
-        }
-        .title {
-          font-size: var(--7xl);
-        }
-        .desc {
-          max-width: 60ch;
-          font-size: var(--lg);
-        }
-        .hero__btn {
-          font-size: var(--lg);
-        }
-      }
+    }
+    .subtitle {
+      font-size: var(--2xl);
+    }
+    .title {
+      font-size: var(--7xl);
+    }
+    .desc {
+      max-width: 60ch;
+      font-size: var(--lg);
+    }
+    .hero__btn {
+      font-size: var(--lg);
+    }
+  }
 }
 
 /* xl */
 @media (min-width: 1280px) {
-    .hero {
-        gap:2rem;
-        .img__container{
-          .image {
-            width: 10rem;
-            height: 10rem;
-          }
-        }
-        .subtitle {
-          font-size: var(--3xl);
-        }
-        .title {
-          font-size: var(--8xl);
-        }
-        .desc {
-          max-width: 60ch;
-          font-size: var(--xl);
-        }
-        .hero__btn {
-          font-size: var(--lg);
-        }
+  .hero {
+    gap: 2rem;
+    .img__container {
+      .image {
+        width: 10rem;
+        height: 10rem;
       }
+    }
+    .subtitle {
+      font-size: var(--3xl);
+    }
+    .title {
+      font-size: var(--8xl);
+    }
+    .desc {
+      max-width: 60ch;
+      font-size: var(--xl);
+    }
+    .hero__btn {
+      font-size: var(--lg);
+    }
+  }
 }
 
 /* 2xl */

@@ -71,6 +71,19 @@
       align-items: center;
       gap: 1em;
       font-size: var(--sm);
+      p {
+        a {
+          color: var(--light);
+          text-decoration: none;
+          display: inline-flex;
+          align-items: center;
+          transition: color 0.2s ease;
+
+          &:hover {
+            color: var(--indigo);
+          }
+        }
+      }
       p i {
         color: var(--indigo);
         font-size: var(--sm);
