@@ -7,17 +7,17 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 
 const Journey = () => {
-  let workIconStyle = { background: "#eab308" };
-  let schoolIconStyle = { background: "#4f46e5" };
+  const workIconStyle = { background: "#eab308" };
+  const schoolIconStyle = { background: "#4f46e5" };
   return (
     <div className="journey container section">
       <h2 className="title">My Journey</h2>
       <VerticalTimeline>
         {timelineElements.map((ele) => {
-          let isWorkIcon = ele.icon === "work";
+          const isWorkIcon = ele.icon === "work";
           return (
             <VerticalTimelineElement
-              key={ele.key}
+              key={ele.id}
               date={ele.date}
               dateClassName="date"
               iconStyle={isWorkIcon ? workIconStyle : schoolIconStyle}

@@ -31,6 +31,8 @@
   "devDependencies": {
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^8.71.1",
+    "@typescript-eslint/parser": "^8.71.1",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^10.1.8",
@@ -38,7 +40,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "prettier": "^3.9.9",
-    "typescript": "^7.0.2",
+    "typescript": "^6.0.3",
     "vite": "^5.0.0"
   }
 }

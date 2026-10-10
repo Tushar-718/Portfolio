@@ -1,4 +1,14 @@
-let timelineElements = [
+export interface TimelineElement {
+  id: number;
+  title: string;
+  company: string;
+  location: string;
+  date: string;
+  desc: string;
+  icon: "work" | "school";
+}
+
+const timelineElements: TimelineElement[] = [
   {
     id: 1,
     title: "Software Developer | React Native Developer",

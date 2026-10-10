@@ -1,4 +1,13 @@
-let projects = [
+export interface Project {
+  id: number;
+  title: string;
+  technologies: string[];
+  imageSource: string;
+  description: string;
+  url: string;
+}
+
+const projects: Project[] = [
   {
     id: 1,
     title: "Movie Mania",
