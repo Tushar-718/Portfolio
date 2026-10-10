@@ -61,13 +61,19 @@ const Contact = () => {
       <div className="infoContainer">
         <div className="personalInfo">
           <p>
-            <i className="fa-solid fa-paper-plane"></i>kumartushar2906@gmail.com
+            <a href="mailto:kumartushar2906@gmail.com">
+              <i className="fa-solid fa-paper-plane"></i>kumartushar2906@gmail.com
+            </a>
           </p>
           <p>
-            <i className="fa-solid fa-square-phone"></i>9717481160
+            <a href="tel:+919717481160">
+              <i className="fa-solid fa-square-phone"></i>9717481160
+            </a>
           </p>
           <p>
-            <i className="fa-brands fa-github"></i>https://github.com/Tushar-718
+            <a href="https://github.com/Tushar-718" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-github"></i>https://github.com/Tushar-718
+            </a>
           </p>
         </div>
         <div className="cvButton">
