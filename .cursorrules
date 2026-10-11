@@ -1,0 +1,8 @@
+# Cursor Rules
+
+Strictly adhere to the Lead Architect rules and custom commands centrally defined in `.ai/skills/`:
+
+- **Project Rules & Coding Standards**: `.ai/skills/project-rules.md`
+- **PR Review Command**: `.ai/skills/pr-review.md`
+- **PR Review Validator Command**: `.ai/skills/pr-review-validator.md`
+
