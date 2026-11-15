@@ -18,17 +18,17 @@ const timelineElements: TimelineElement[] = [
     desc: `Developed core features of a B2B corporate travel app using React Native, Expo, and TypeScript. Implemented approval workflows, vendor SSO, and shipped 12+ releases with EAS Build and OTA updates.`,
     icon: "work",
   },
+  // {
+  //   id: 2,
+  //   title: "Software Engineer | React Native Developer",
+  //   company: "Spraxa Solutions",
+  //   location: "Noida",
+  //   date: "Nov 2025 - Jan 2026",
+  //   desc: `Built IoT device integrations using BLE and NFC for hardware communication and secure pairing. Ensured Android compliance by resolving the 16KB page size requirement.`,
+  //   icon: "work",
+  // },
   {
     id: 2,
-    title: "Software Engineer | React Native Developer",
-    company: "Spraxa Solutions",
-    location: "Noida",
-    date: "Nov 2025 - Jan 2026",
-    desc: `Built IoT device integrations using BLE and NFC for hardware communication and secure pairing. Ensured Android compliance by resolving the 16KB page size requirement.`,
-    icon: "work",
-  },
-  {
-    id: 3,
     title: "SDE-1 | React Native Developer",
     company: "Tech Matpatra",
     location: "Gurugram",
@@ -37,7 +37,7 @@ const timelineElements: TimelineElement[] = [
     icon: "work",
   },
   {
-    id: 4,
+    id: 3,
     title: "Web Developer | Next.js",
     company: "Magic Edtech",
     location: "Noida",
@@ -46,7 +46,7 @@ const timelineElements: TimelineElement[] = [
     icon: "work",
   },
   {
-    id: 5,
+    id: 4,
     title: "Bachelors Of Technology in Information Technology",
     company: "Maharaja Surajmal Institute of Technology",
     location: "Delhi",
@@ -55,7 +55,7 @@ const timelineElements: TimelineElement[] = [
     icon: "school",
   },
   {
-    id: 6,
+    id: 5,
     title: "Class XII",
     company: "Kendriya Vidyalaya Andrews Ganj",
     location: "Delhi",
@@ -64,7 +64,7 @@ const timelineElements: TimelineElement[] = [
     icon: "school",
   },
   {
-    id: 7,
+    id: 6,
     title: "Class X",
     company: "Kendriya Vidyalaya Andrews Ganj",
     location: "Delhi",
